@@ -1,13 +1,13 @@
-# README
-## This is the README for your extension "vsc-rosely-light"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Rosely Light - a Visual Studio Code theme
+## A low contrast soothing colour palette based on millennial pink
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+The Rosely Visual Studio Code Theme is based on a millennial pink inspired
+colour palette.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+It is a deliberately low contrast theme full of soothing
+contemporary colours designed to induce calmness and serenity and works well
+even on lower contrast displays. It is not eye fatiguing as it avoids high
+contrast colour changes and helps the eyes to focus on what is important.
 
-**Enjoy!**
+It is part of the overall Rosely Design System created by
+[Chris Tham](chris.tham@hellotham.com).

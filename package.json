@@ -1,20 +1,35 @@
 {
     "name": "vsc-rosely-light",
-    "displayName": "vsc-rosely-light",
-    "description": "The Rosely Visual Studio Theme is based on a millennial pink inspired colour palette.",
-    "version": "0.0.1",
+    "displayName": "Rosely Light",
+    "description": "The Rosely Visual Studio Code Theme is based on a millennial pink inspired colour palette. It is a deliberately low contrast theme full of soothing contemporary colours designed to induce calmness and serenity and works well even on lower contrast displays. It is not eye fatiguing as it avoids high contrast colour changes and helps the eyes to focus on what is important. It is part of the overall Rosely Design System created by Chris Tham (chris.tham@hellotham.com).",
+    "version": "1.0.0",
+    "license": "MIT",
+    "homepage": "https://github.com/ChristineTham/vsc-rosely-light/blob/master/README.md",
+    "bugs": {
+      "url": "https://github.com/ChristineTham/vsc-rosely-light/issues",
+      "email": "chris.tham@hellotham.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ChristineTham/vsc-rosely-light.git"
+    },
     "engines": {
         "vscode": "^1.52.0"
     },
     "categories": [
         "Themes"
     ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+      "color": "#f7caca",
+      "theme": "light"
+    },
     "contributes": {
         "themes": [
             {
                 "label": "Rosely Light",
                 "uiTheme": "vs",
-                "path": "./themes/Rosely Light-color-theme.json"
+                "path": "./themes/RoselyLight.json"
             }
         ]
     }

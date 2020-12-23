@@ -1,0 +1,686 @@
+{
+    "workbench.colorTheme": "Quiet Light",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.autoSave": "afterDelay",
+    "editor.tokenColorCustomizations": {
+        "comments": "#a49e9e",
+        "keywords": "#be9cc1",
+        "functions": "#64bfa4",
+        "strings": "#93a9d1",
+        "numbers": "#615f5f",
+        "types": "#85677b",
+        "variables": "#ec809e",
+    },
+    "workbench.colorCustomizations": {
+        // Contrast colors
+        // The contrast colors are typically only set for high contrast themes. If set, they add an additional border around items across the UI to increase the contrast.
+        // "contrastActiveBorder": "#27272a", // An extra border around active elements to separate them from others for greater contrast.
+        // "contrastBorder": "#27272a", // An extra border around elements to separate them from others for greater contrast.
+
+        // Base colors
+        "focusBorder": "#93a9d1", // Overall border color for focused elements. This color is only used if not overridden by a component.
+        "foreground": "#27272a", // Overall foreground color. This color is only used if not overridden by a component.
+        "widget.shadow": "#615f5f40", // Shadow color of widgets such as Find/Replace inside the editor.
+        "selection.background": "#ec809e80", // Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the "terminal).",
+        "descriptionForeground": "#b565a7", // Foreground color for description text providing additional information, for example for a label.
+        "errorForeground": "#d2386c", // Overall foreground color for error messages (this color is only used if not overridden by a component).
+        "icon.foreground": "#b565a7", // The default color for icons in the workbench.
+        "sash.hoverBorder": "#b565a7", // The hover border color for draggable sashes.
+
+        // Window border
+        // The theme colors for VS Code window border.
+        "window.activeBorder": "#93a9d1", // Border color for the active (focused) window.
+        "window.inactiveBorder": "#a49e9e", // Border color for the inactive (unfocused) windows.
+        
+        // Text colors
+        // Colors inside a text document, such as the welcome page.
+        "textBlockQuote.background": "#d2c4d6", // Background color for block quotes in text.
+        "textBlockQuote.border": "#b565a7", // Border color for block quotes in text.
+        "textCodeBlock.background": "#d2c4d6", // Background color for code blocks in text.
+        "textLink.activeForeground": "#b565a7", // Foreground color for links in text when clicked on and on mouse hover.
+        "textLink.foreground": "#d2386c", // Foreground color for links in text.
+        "textPreformat.foreground": "#615f5f", // Foreground color for preformatted text segments.
+        "textSeparator.foreground": "#f7caca", // Color for text separators.
+
+        // Button control
+        // A set of colors for button widgets such as Open Folder button in the Explorer of a new window.
+        "button.background": "#b565a7", // Button background color.
+        "button.foreground": "#fff", // Button foreground color.
+        "button.hoverBackground": "#b0879b", // Button background color when hovering.
+        "button.secondaryForeground": "#27272a", // Secondary button foreground color.
+        "button.secondaryBackground": "#93a9d1", // Secondary button background color.
+        "button.secondaryHoverBackground": "#85677b", // Secondary button background color when hovering.
+        "checkbox.background": "#f7caca", // Background color of checkbox widget.
+        "checkbox.foreground": "#27272a", // Foreground color of checkbox widget.
+        "checkbox.border": "#93a9d1", // Border color of checkbox widget.
+        
+        // Dropdown control
+        // A set of colors for all Dropdown widgets such as in the Integrated Terminal or the Output panel. Note that the Dropdown control is not used on macOS currently.
+        "dropdown.background": "#f4eee8", // Dropdown background.
+        "dropdown.listBackground": "#f4eee8", // Dropdown list background.
+        "dropdown.border": "#93a9d1", // Dropdown border.
+        "dropdown.foreground": "#27272a", // Dropdown foreground.
+        
+        // Input control
+        // Colors for input controls such as in the Search view or the Find/Replace dialog.
+        "input.background": "#f4eee8", // Input box background.
+        "input.border": "#93a9d1", // Input box border.
+        "input.foreground": "#27272a", // Input box foreground.
+        "input.placeholderForeground": "#a49e9e", // Input box foreground color for placeholder text.
+        "inputOption.activeBackground": "#f4dede", // Background color of activated options in input fields.
+        "inputOption.activeBorder": "#b565a7", // Border color of activated options in input fields.
+        "inputOption.activeForeground": "#27272a", // Foreground color of activated options in input fields.
+        "inputValidation.errorBackground": "#f4eee8", // Input validation background color for error severity.
+        "inputValidation.errorForeground": "#d2386c", // Input validation foreground color for error severity.
+        "inputValidation.errorBorder": "#d2386c", // Input validation border color for error severity.
+        "inputValidation.infoBackground": "#93a9d1", // Input validation background color for information severity.
+        "inputValidation.infoForeground": "#27272a", // Input validation foreground color for information severity.
+        "inputValidation.infoBorder": "#919bc9", // Input validation border color for information severity.
+        "inputValidation.warningBackground": "#eada4f", // Input validation background color for information warning.
+        "inputValidation.warningForeground": "#27272a", // Input validation foreground color for warning severity.
+        "inputValidation.warningBorder": "#eada4f", // Input validation border color for warning severity.
+
+        // Scrollbar control#
+        "scrollbar.shadow": "#615f5f80", // Scrollbar slider shadow to indicate that the view is scrolled.
+        "scrollbarSlider.activeBackground": "#d2386ca0", // Scrollbar slider background color when clicked on.
+        "scrollbarSlider.background": "#b0879ba0", // Scrollbar slider background color.
+        "scrollbarSlider.hoverBackground": "#b565a7a0", // Scrollbar slider background color when hovering.
+
+        // Badge
+        // Badges are small information labels, for example, search results count.
+        "badge.foreground": "#fff", // Badge foreground color.
+        "badge.background": "#d2386c", // Badge background color.
+        
+        // Progress bar
+        "progressBar.background": "#b565a7", // Background color of the progress bar shown for long running operations.
+
+        // Lists and trees#
+        // Colors for list and trees like the File Explorer. An active list/tree has keyboard focus, an inactive does not.
+        "list.activeSelectionBackground": "#b0879ba0", // List/Tree background color for the selected item when the list/tree is active.
+        "list.activeSelectionForeground": "#27272a", // List/Tree foreground color for the selected item when the list/tree is active.
+        "list.dropBackground": "#b565a780", // List/Tree drag and drop background when moving items around using the mouse.
+        "list.focusBackground": "#b565a7", // List/Tree background color for the focused item when the list/tree is active.
+        "list.focusForeground": "#fff", // List/Tree foreground color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
+        "list.highlightForeground": "#b565a7", // List/Tree foreground color of the match highlights when searching inside the list/tree.
+        "list.hoverBackground": "#ec809e40", // List/Tree background when hovering over items using the mouse.
+        "list.hoverForeground": "#b565a7", // List/Tree foreground when hovering over items using the mouse.
+        "list.inactiveSelectionBackground": "#b0879b40", // List/Tree background color for the selected item when the list/tree is inactive.
+        "list.inactiveSelectionForeground": "#85677b", // List/Tree foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
+        "list.inactiveFocusBackground": "#b0879b", // List background color for the focused item when the list is inactive. An active list has keyboard focus, an inactive does not. Currently only supported in lists.
+        "list.invalidItemForeground": "#b565a7", // List/Tree foreground color for invalid items, for example an unresolved root in explorer.
+        "list.errorForeground": "#d2386c", // Foreground color of list items containing errors.
+        "list.warningForeground": "#be9cc1", // Foreground color of list items containing warnings.
+        "listFilterWidget.background": "#f7caca", // List/Tree Filter background color of typed text when searching inside the list/tree.
+        "listFilterWidget.outline": "#b565a7", // List/Tree Filter Widget's outline color of typed text when searching inside the list/tree.
+        "listFilterWidget.noMatchesOutline": "#d2386c", // List/Tree Filter Widget's outline color when no match is found of typed text when searching inside the list/tree.
+        "list.filterMatchBackground": "#ec809e40", // Background color of the filtered matches in lists and trees.
+        "list.filterMatchBorder": "#ec809e", // Border color of the filtered matches in lists and trees.
+        "tree.indentGuidesStroke": "#93a9d1", // Tree Widget's stroke color for indent guides.
+        "list.deemphasizedForeground": "#a49e9e", // List/Tree foreground color for items that are deemphasized.
+
+        // Activity Bar
+        // The Activity Bar is displayed either on the far left or right of the workbench and allows fast switching between views of the Side Bar.
+        "activityBar.background": "#d2c4d6", // Activity Bar background color.
+        "activityBar.dropBorder": "#93a9d1", // Drag and drop feedback color for the activity bar items. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
+        "activityBar.foreground": "#27272a", // Activity Bar foreground color (for example used for the icons).
+        "activityBar.inactiveForeground": "#85677b", // Activity Bar item foreground color when it is inactive.
+        "activityBar.border": "#be9cc1", // Activity Bar border color with the Side Bar.
+        "activityBarBadge.background": "#d2386c", // Activity notification badge background color.
+        "activityBarBadge.foreground": "#fff", // Activity notification badge foreground color.
+        "activityBar.activeBorder": "#b565a7", // Activity Bar active indicator border color.
+        "activityBar.activeBackground": "#f7caca", // Activity Bar optional background color for the active element.
+        "activityBar.activeFocusBorder": "#d2386c", // Activity bar focus border color for the active item.
+
+        // Side Bar
+        // The Side Bar contains views like the Explorer and Search.
+        "sideBar.background": "#f4dede", // Side Bar background color.
+        "sideBar.foreground": "#615f5f", // Side Bar foreground color. The Side Bar is the container for views like Explorer and Search.
+        "sideBar.border": "#be9cc1", // Side Bar border color on the side separating the editor.
+        "sideBar.dropBackground": "#ec809e80", // Drag and drop feedback color for the side bar sections. The color should have transparency so that the side bar sections can still shine through.
+        "sideBarTitle.foreground": "#27272a", // Side Bar title foreground color.
+        "sideBarSectionHeader.background": "#f7caca", // Side Bar section header background color.
+        "sideBarSectionHeader.foreground": "#85677b", // Side Bar section header foreground color.
+        "sideBarSectionHeader.border": "#b0879b", // Side bar section header border color.
+
+        // Minimap
+        // The Minimap shows a minified version of the current file.
+        "minimap.findMatchHighlight": "#ec809e", // Highlight color for matches from search within files.
+        "minimap.selectionHighlight": "#b565a7", // Highlight color for the editor selection.
+        "minimap.errorHighlight": "#d2386c", // Highlight color for errors within the editor.
+        "minimap.warningHighlight": "#eada4f", // Highlight color for warnings within the editor.
+        "minimap.background": "#f7caca", // Minimap background color.
+        "minimapSlider.background": "#b0879b80", // Minimap slider background color.
+        "minimapSlider.hoverBackground": "#b565a780", // Minimap slider background color when hovering.
+        "minimapSlider.activeBackground": "#d2386c80", // Minimap slider background color when clicked on.
+        "minimapGutter.addedBackground": "#64bfa480", // Minimap gutter color for added content.
+        "minimapGutter.modifiedBackground": "#919bc980", // Minimap gutter color for modified content.
+        "minimapGutter.deletedBackground": "#d2386c80", // Minimap gutter color for deleted content.
+
+        // Editor Groups & Tabs
+        // Editor Groups are the containers of editors. There can be many editor groups. A Tab is the container of an editor. Multiple Tabs can be opened in one editor group.
+        "editorGroup.border": "#b565a7", // Color to separate multiple editor groups from each other.
+		// "editorGroup.background": "#f4eee8",
+        "editorGroup.dropBackground": "#ec809e80", // Background color when dragging editors around.
+        "editorGroupHeader.noTabsBackground": "#f4eee8", // Background color of the editor group title header when Tabs are disabled (set "workbench.editor.showTabs": false).
+        "editorGroupHeader.tabsBackground": "#f4dede", // Background color of the Tabs container.
+        "editorGroupHeader.tabsBorder": "#be9cc1", // Border color below the editor tabs control when tabs are enabled.
+        "editorGroupHeader.border": "#b565a7", // Border color between editor group header and editor (below breadrcumbs if enabled).
+        "editorGroup.emptyBackground": "#f4eee8", // Background color of an empty editor group.
+        "editorGroup.focusedEmptyBorder": "#93a9d1", // Border color of an empty editor group that is focused.
+        "tab.activeBackground": "#b0879ba0", // Active Tab background color in an active group.
+        "tab.unfocusedActiveBackground": "#a49e9e80", // Active Tab background color in an inactive editor group.
+        "tab.activeForeground": "#27272a", // Active Tab foreground color in an active group.
+        "tab.border": "#be9cc1", // Border to separate Tabs from each other.
+        "tab.activeBorder": "#b565a7", // Bottom border for the active tab.
+        "tab.unfocusedActiveBorder": "#b0879b", // Bottom border for the active tab in an inactive editor group.
+        "tab.activeBorderTop": "#b565a7", // Top border for the active tab.
+        "tab.unfocusedActiveBorderTop": "#b0879b", // Top border for the active tab in an inactive editor group
+        "tab.lastPinnedBorder": "#ec809e", // Border on the right of the last pinned editor to separate from unpinned editors.
+        "tab.inactiveBackground": "#b0879b40", // Inactive Tab background color.
+        "tab.unfocusedInactiveBackground": "#a49e9e80", // Inactive Tab background color in an unfocused group
+        "tab.inactiveForeground": "#615f5f", // Inactive Tab foreground color in an active group.
+        "tab.unfocusedActiveForeground": "#85677b", // Active tab foreground color in an inactive editor group.
+        "tab.unfocusedInactiveForeground": "#85677b", // Inactive tab foreground color in an inactive editor group.
+        "tab.hoverBackground": "#ec809e40", // Tab background color when hovering
+        "tab.unfocusedHoverBackground": "#f7caca", // Tab background color in an unfocused group when hovering
+        "tab.hoverForeground": "#b565a7", // Tab foreground color when hovering
+        "tab.unfocusedHoverForeground": "#b0879b", // Tab foreground color in an unfocused group when hovering
+        "tab.hoverBorder": "#b565a7", // Border to highlight tabs when hovering
+        "tab.unfocusedHoverBorder": "#b0879b", // Border to highlight tabs in an unfocused group when hovering
+        "tab.activeModifiedBorder": "#d2386c", // Border on the top of modified (dirty) active tabs in an active group.
+        "tab.inactiveModifiedBorder": "#ec809e", // Border on the top of modified (dirty) inactive tabs in an active group.
+        "tab.unfocusedActiveModifiedBorder": "#64bfa4", // Border on the top of modified (dirty) active tabs in an unfocused group.
+        "tab.unfocusedInactiveModifiedBorder": "#919bc9", // Border on the top of modified (dirty) inactive tabs in an unfocused group.
+        "editorPane.background": "#f7caca", // Background color of the editor pane visible on the left and right side of the centered editor layout.
+
+        // Editor colors
+        "editor.background": "#f4eee8", // Editor background color.
+        "editor.foreground": "#615f5f", // Editor default foreground color.
+        "editorLineNumber.foreground": "#a49e9e", // Color of editor line numbers.
+        "editorLineNumber.activeForeground": "#b565a7", // Color of the active editor line number.
+		// "editorActiveLineNumber.foreground": "#b565a7",
+        "editorCursor.background": "#f7caca", // The background color of the editor cursor. Allows customizing the color of a character overlapped by a block cursor.
+        "editorCursor.foreground": "#b565a7", // Color of the editor cursor.
+        // Selection colors are visible when selecting one or more characters. In addition to the selection also all regions with the same content are highlighted.
+        "editor.selectionBackground": "#ec809e40", // Color of the editor selection.
+        "editor.selectionForeground": "#27272a", // Color of the selected text for high contrast.
+        "editor.inactiveSelectionBackground": "#a49e9e80", // Color of the selection in an inactive editor. The color must not be opaque so as not to hide underlying decorations.
+        "editor.selectionHighlightBackground": "#be9cc140", // Color for regions with the same content as the selection. The color must not be opaque so as not to hide underlying decorations.
+        "editor.selectionHighlightBorder": "#be9cc1", // Border color for regions with the same content as the selection.
+        // Word highlight colors are visible when the cursor is inside a symbol or a word. Depending on the language support available for the file type, all matching references and declarations are highlighted and read and write accesses get different colors. If document symbol language support is not available, this falls back to word highlighting.
+        "editor.wordHighlightBackground": "#93a9d140", // Background color of a symbol during read-access, for example when reading a variable. The color must not be opaque so as not to hide "underlying decorations".
+        "editor.wordHighlightBorder": "#93a9d1", // Border color of a symbol during read-access, for example when reading a variable.
+        "editor.wordHighlightStrongBackground": "#64bfa440", // Background color of a symbol during write-access, for example when writing to a variable. The color must not be opaque so as not to hide underlying decorations.
+        "editor.wordHighlightStrongBorder": "#64bfa4", // Border color of a symbol during write-access, for example when writing to a variable.
+        // Find colors depend on the current find string in the Find/Replace dialog.
+        "editor.findMatchBackground": "#b565a740", // Color of the current search match.
+        "editor.findMatchHighlightBackground": "#b0879b40", // Color of the other search matches. The color must not be opaque so as not to hide underlying decorations.
+        "editor.findRangeHighlightBackground": "#be9cc140", // Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque so as not to hide underlying decorations.
+        "editor.findMatchBorder": "#b565a7", // Border color of the current search match.
+        "editor.findMatchHighlightBorder": "#b0879b", // Border color of the other search matches.
+        "editor.findRangeHighlightBorder": "#be9cc1", // Border color the range limiting the search (Enable 'Find in Selection' in the find widget).
+        // Search Editor colors highlight results in a Search Editor. This can be configured separately from other find matches in order to better differentiate between different classes of match in the same editor.
+        "searchEditor.findMatchBackground": "#b565a740", // Color of the editor's results.
+        "searchEditor.findMatchBorder": "#b565a7", // Border color of the editor's results.
+        "searchEditor.textInputBorder": "#b565a7", // Search editor text input box border.
+        // The hover highlight is shown behind the symbol for which a hover is shown.
+        "editor.hoverHighlightBackground": "#f4dede", // Highlight below the word for which a hover is shown. The color must not be opaque so as not to hide underlying decorations.
+        // The current line is typically shown as either background highlight or a border (not both).
+        "editor.lineHighlightBackground": "#f4dede", // Background color for the highlight of line at the cursor position.
+        // "editor.lineHighlightBorder": "#93a9d1", // Background color for the border around the line at the cursor position.
+        // The link color is visible when clicking on a link.
+        "editorLink.activeForeground": "#b565a7", // Color of active links.
+        // The range highlight is visible when selecting a search result.
+        "editor.rangeHighlightBackground": "#be9cc140", // Background color of highlighted ranges, used by Quick Open, Symbol in File and Find features. The color must not be opaque so as not to hide underlying decorations.
+        "editor.rangeHighlightBorder": "#be9cc1", // Background color of the border around highlighted ranges.
+        // The symbol highlight is visible when navigating to a symbol via a command such as Go to Definition.
+        "editor.symbolHighlightBackground": "#85677b40", // Background color of highlighted symbol. The color must not be opaque so as not to hide underlying decorations.
+        "editor.symbolHighlightBorder": "#85677b", // Background color of the border around highlighted symbols.
+        // To see the editor white spaces, enable Toggle Render Whitespace.
+        "editorWhitespace.foreground": "#f4dede", // Color of whitespace characters in the editor.
+        // To see the editor indent guides, set "editor.renderIndentGuides": true.
+        "editorIndentGuide.background": "#93a9d1", // Color of the editor indentation guides.
+        "editorIndentGuide.activeBackground": "#be9cc1", // Color of the active editor indentation guide.
+        // To see editor rulers, define their location with "editor.rulers"
+        "editorRuler.foreground": "#f7caca", // Color of the editor rulers.
+        "editor.linkedEditingBackground": "#f4dede", // Background color when the editor is in linked editing mode.
+        // CodeLens:
+        "editorCodeLens.foreground": "#a49e9e", // Foreground color of an editor CodeLens.
+        // Lightbulb:
+        "editorLightBulb.foreground": "#eada4f", // The color used for the lightbulb actions icon.
+        "editorLightBulbAutoFix.foreground": "#eada4f", // The color used for the lightbulb auto fix actions icon.
+        // Bracket matches:
+        "editorBracketMatch.background": "#b565a740", // Background color behind matching brackets.
+        "editorBracketMatch.border": "#b565a7", // Color for matching brackets boxes.
+        // Folding:
+        "editor.foldBackground": "#93a9d180", // Background color for folded ranges. The color must not be opaque so as not to hide underlying decorations.
+        // Overview ruler:
+        // This ruler is located beneath the scroll bar on the right edge of the editor and gives an overview of the decorations in the editor.
+        "editorOverviewRuler.background": "#f4eee8", // Background color of the editor overview ruler. Only used when the minimap is enabled and placed on the right side of the editor.
+        "editorOverviewRuler.border": "#b565a7", // Color of the overview ruler border.
+        "editorOverviewRuler.findMatchForeground": "#b565a740", // Overview ruler marker color for find matches. The color must not be opaque so as not to hide underlying decorations.
+        "editorOverviewRuler.rangeHighlightForeground": "#b0879b40", // Overview ruler marker color for highlighted ranges, like by the Quick Open, Symbol in File and Find features. The color must not be opaque so as not to hide underlying decorations.
+        "editorOverviewRuler.selectionHighlightForeground": "#ec809e40", // Overview ruler marker color for selection highlights. The color must not be opaque so as not to hide underlying decorations.
+        "editorOverviewRuler.wordHighlightForeground": "#93a9d140", // Overview ruler marker color for symbol highlights. The color must not be opaque so as not to hide underlying decorations.
+        "editorOverviewRuler.wordHighlightStrongForeground": "#64bfa440", // Overview ruler marker color for write-access symbol highlights. The color must not be opaque so as not to hide underlying decorations.
+        "editorOverviewRuler.modifiedForeground": "#919bc980", // Overview ruler marker color for modified content.
+        "editorOverviewRuler.addedForeground": "#64bfa480", // Overview ruler marker color for added content.
+        "editorOverviewRuler.deletedForeground": "#d2386c80", // Overview ruler marker color for deleted content.
+        "editorOverviewRuler.errorForeground": "#d2386c80", // Overview ruler marker color for errors.
+        "editorOverviewRuler.warningForeground": "#eada4f80", // Overview ruler marker color for warnings.
+        "editorOverviewRuler.infoForeground": "#93a9d140", // Overview ruler marker color for infos.
+        "editorOverviewRuler.bracketMatchForeground": "#b565a740", // Overview ruler marker color for matching brackets.
+        // Errors and warnings:
+        "editorError.foreground": "#27272a", // Foreground color of error squiggles in the editor.
+        "editorError.border": "#d2386c", // Border color of error boxes in the editor.
+        "editorError.background": "#d2386c80", // Background color of error text in the editor. The color must not be opaque so as not to hide underlying decorations.
+        "editorWarning.foreground": "#27272a", // Foreground color of warning squiggles in the editor.
+        "editorWarning.border": "#eada4f", // Border color of warning boxes in the editor.
+        "editorWarning.background": "#eada4f80", // Background color of warning text in the editor. The color must not be opaque so as not to hide underlying decorations.
+        "editorInfo.foreground": "#27272a", // Foreground color of info squiggles in the editor.
+        "editorInfo.border": "#919bc9", // Border color of info boxes in the editor.
+        "editorInfo.background": "#919bc940", // Background color of info text in the editor. The color must not be opaque so as not to hide underlying decorations.
+        "editorHint.foreground": "#64bfa4", // Foreground color of hints in the editor.
+        "editorHint.border": "#64bfa4", // Border color of hint boxes in the editor.
+        "problemsErrorIcon.foreground": "#ec809e", // The color used for the problems error icon.
+        "problemsWarningIcon.foreground": "#eada4f", // The color used for the problems warning icon.
+        "problemsInfoIcon.foreground": "#919bc9", // The color used for the problems info icon.
+        // Unused source code:
+        "editorUnnecessaryCode.border": "#a49e9e", // Border color of unnecessary (unused) source code in the editor.
+        "editorUnnecessaryCode.opacity": "#a49e9ea0", // Opacity of unnecessary (unused) source code in the editor. For example, "#000000c0" will render the code with 75% opacity. For high contrast themes, use the "editorUnnecessaryCode.border" theme color to underline unnecessary code instead of fading it out.
+        // The gutter contains the glyph margins and the line numbers:
+        "editorGutter.background": "#a49e9e40", // Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
+        "editorGutter.modifiedBackground": "#919bc980", // Editor gutter background color for lines that are modified.
+        "editorGutter.addedBackground": "#64bfa480", // Editor gutter background color for lines that are added.
+        "editorGutter.deletedBackground": "#d2386c80", // Editor gutter background color for lines that are deleted.
+        "editorGutter.commentRangeForeground": "#85677b80", // Editor gutter decoration color for commenting ranges.
+        "editorGutter.foldingControlForeground": "#93a9d180", // Color of the folding control in the editor gutter.
+
+        // Diff editor colors        
+        "diffEditor.insertedTextBorder": "#64bfa4", // Outline color for the text that got inserted.
+        "diffEditor.removedTextBorder": "#d2386c", // Outline color for text that got removed.
+        "diffEditor.border": "#a49e9e", // Border color between the two text editors.
+        "diffEditor.diagonalFill": "#b565a7", // Color of the diff editor's diagonal fill. The diagonal fill is used in side-by-side diff views.
+		//"diffEditor.insertedTextBackground": "#64bfa480",
+        //"diffEditor.removedTextBackground": "#d2386c80",
+        
+        // Editor widget colors
+        // The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
+        "editorWidget.foreground": "#27272a", // Foreground color of editor widgets, such as find/replace.
+        "editorWidget.background": "#f7caca", // Background color of editor widgets, such as Find/Replace.
+        "editorWidget.border": "#be9cc1", // Border color of the editor widget unless the widget does not contain a border or defines its own border color.
+        "editorWidget.resizeBorder": "#b565a7", // Border color of the resize bar of editor widgets. The color is only used if the widget chooses to have a resize border and if  the color is not overridden by a widget.
+        "editorSuggestWidget.background": "#f4eee8", // Background color of the suggestion widget.
+        "editorSuggestWidget.border": "#be9cc1", // Border color of the suggestion widget.
+        "editorSuggestWidget.foreground": "#27272a", // Foreground color of the suggestion widget.
+        "editorSuggestWidget.highlightForeground": "#be9cc1", // Color of the match highlights in the suggestion widget.
+        "editorSuggestWidget.selectedBackground": "#ec809e40", // Background color of the selected entry in the suggestion widget.
+        "editorHoverWidget.foreground": "#615f5f", // Foreground color of the editor hover.
+        "editorHoverWidget.background": "#f4dede", // Background color of the editor hover.
+        "editorHoverWidget.border": "#be9cc1", // Border color of the editor hover.
+        "editorHoverWidget.statusBarBackground": "#f7caca", // Background color of the editor hover status bar.
+        // The Debug Exception widget is a peek view that shows in the editor when debug stops at an exception.
+        "debugExceptionWidget.background": "#eada4f80", // Exception widget background color.
+        "debugExceptionWidget.border": "#b565a7", // Exception widget border color.
+        // The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
+        "editorMarkerNavigation.background": "#be9cc1", // Editor marker navigation widget background.
+        "editorMarkerNavigationError.background": "#d2386c", // Editor marker navigation widget error color.
+        "editorMarkerNavigationWarning.background": "#eada4f", // Editor marker navigation widget warning color.
+        "editorMarkerNavigationInfo.background": "#919bc9", // Editor marker navigation widget info color.
+
+        // Peek view colors
+        // Peek views are used to show references and declarations as a view inside the editor.
+        "peekView.border": "#be9cc1", // Color of the peek view borders and arrow.
+        "peekViewEditor.background": "#f4eee8", // Background color of the peek view editor.
+        "peekViewEditorGutter.background": "#be9cc140", // Background color of the gutter in the peek view editor.
+        "peekViewEditor.matchHighlightBackground": "#b565a740", // Match highlight color in the peek view editor.
+        "peekViewEditor.matchHighlightBorder": "#b565a7", // Match highlight border color in the peek view editor.
+        "peekViewResult.background": "#f4dede", // Background color of the peek view result list.
+        "peekViewResult.fileForeground": "#27272a", // Foreground color for file nodes in the peek view result list.
+        "peekViewResult.lineForeground": "#615f5f", // Foreground color for line nodes in the peek view result list.
+        "peekViewResult.matchHighlightBackground": "#b565a740", // Match highlight color in the peek view result list.
+        "peekViewResult.selectionBackground": "#ec809e40", // Background color of the selected entry in the peek view result list.
+        "peekViewResult.selectionForeground": "#27272a", // Foreground color of the selected entry in the peek view result list.
+        "peekViewTitle.background": "#f7caca", // Background color of the peek view title area.
+        "peekViewTitleDescription.foreground": "#85677b", // Color of the peek view title info.
+        "peekViewTitleLabel.foreground": "#27272a", // Color of the peek view title.
+
+        // Merge conflicts colors#
+        // Merge conflict decorations are shown when the editor contains special diff ranges.
+        "merge.currentHeaderBackground": "#919bc980", // Current header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
+        "merge.currentContentBackground": "#919bc940", // Current content background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
+        "merge.incomingHeaderBackground": "#64bfa480", // Incoming header background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
+        "merge.incomingContentBackground": "#64bfa440", // Incoming content background in inline merge conflicts. The color must not be opaque so as not to hide underlying decorations.
+        "merge.border": "#be9cc1", // Border color on headers and the splitter in inline merge conflicts.
+        "merge.commonContentBackground": "#a49e9e80", // Common ancestor content background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.
+        "merge.commonHeaderBackground": "#a49e9e40", // Common ancestor header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.
+        "editorOverviewRuler.currentContentForeground": "#919bc9", // Current overview ruler foreground for inline merge conflicts.
+        "editorOverviewRuler.incomingContentForeground": "#64bfa4", // Incoming overview ruler foreground for inline merge conflicts.
+        "editorOverviewRuler.commonContentForeground": "#a49e9e", // Common ancestor overview ruler foreground for inline merge conflicts.
+
+        // Panel colors
+        // Panels are shown below the editor area and contain views like Output and Integrated Terminal.
+        "panel.background": "#f8d7dd", //Panel background color.
+        "panel.border": "#be9cc1", //Panel border color to separate the panel from the editor.
+        "panel.dropBorder": "#be9cc1", //Drag and drop feedback color for the panel titles. Panels are shown below the editor area and contain views like output and integrated terminal.
+        "panelTitle.activeBorder": "#b565a7", //Border color for the active panel title.
+        "panelTitle.activeForeground": "#27272a", //Title color for the active panel.
+        "panelTitle.inactiveForeground": "#85677b", //Title color for the inactive panel.
+        "panelInput.border": "#93a9d1", //Input box border for inputs in the panel.
+        "panelSection.border": "#d2386c", //Panel section border color used when multiple views are stacked horizontally in the panel. Panels are shown below the editor area and contain views like output and integrated terminal.
+        "panelSection.dropBackground": "#ec809e80", // Drag and drop feedback color for the panel sections. The color should have transparency so that the panel sections can still shine through. Panels are shown below the editor area and contain views like output and integrated terminal.
+        "panelSectionHeader.background": "#d2c4d6", // Panel section header background color. Panels are shown below the editor area and contain views like output and integrated terminal.
+        "panelSectionHeader.foreground": "#27272a", // Panel section header foreground color. Panels are shown below the editor area and contain views like output and integrated terminal.
+        "panelSectionHeader.border": "#b565a7", // Panel section header border color used when multiple views are stacked vertically in the panel. Panels are shown below the editor area and contain views like output and integrated terminal.
+
+        // Preview colors
+        "imagePreview.border": "#a49e9e", // Border color for image in image preview.
+
+        // Status Bar colors#
+        // The Status Bar is shown in the bottom of the workbench.
+        "statusBar.background": "#85677b", // Standard Status Bar background color.
+        "statusBar.foreground": "#fff", // Status Bar foreground color.
+        "statusBar.border": "#be9cc1", // Status Bar border color separating the Status Bar and editor.
+        "statusBar.debuggingBackground": "#64bfa4", // Status Bar background color when a program is being debugged.
+        "statusBar.debuggingForeground": "#fff", // Status Bar foreground color when a program is being debugged.
+        "statusBar.debuggingBorder": "#be9cc1", // Status Bar border color separating the Status Bar and editor when a program is being debugged.
+        "statusBar.noFolderForeground": "#fff", // Status Bar foreground color when no folder is opened.
+        "statusBar.noFolderBackground": "#a49e9e", // Status Bar background color when no folder is opened.
+        "statusBar.noFolderBorder": "#be9cc1", // Status Bar border color separating the Status Bar and editor when no folder is opened.
+        "statusBarItem.activeBackground": "#b565a7", // Status Bar item background color when clicking.
+        "statusBarItem.hoverBackground": "#b0879b", // Status Bar item background color when hovering.
+        "statusBarItem.prominentForeground": "#fff", // Status Bar prominent items foreground color.
+        "statusBarItem.prominentBackground": "#be9cc1", // Status Bar prominent items background color.
+        "statusBarItem.prominentHoverBackground": "#b0879b", // Status Bar prominent items background color when hovering.
+        "statusBarItem.remoteBackground": "#615f5f", // Background color for the remote indicator on the status bar.
+        "statusBarItem.remoteForeground": "#fff", // Foreground color for the remote indicator on the status bar.
+        "statusBarItem.errorBackground": "#ec809e", // Status bar error items background color. Error items stand out from other status bar entries to indicate error conditions.
+        "statusBarItem.errorForeground": "#fff", // Status bar error items foreground color. Error items stand out from other status bar entries to indicate error conditions.
+        // Prominent items stand out from other Status Bar entries to indicate importance. One example is the Toggle Tab Key Moves Focus command change mode indicator.
+
+        // Title Bar colors
+        "titleBar.activeBackground": "#f7caca", // Title Bar background when the window is active.
+        "titleBar.activeForeground": "#27272a", // Title Bar foreground when the window is active.
+        "titleBar.inactiveBackground": "#dddddd", // Title Bar background when the window is inactive.
+        "titleBar.inactiveForeground": "#85677b", // Title Bar foreground when the window is inactive.
+        "titleBar.border": "#be9cc1", // Title bar border color.
+
+        // Menu Bar colors
+        "menubar.selectionForeground": "#27272a", // Foreground color of the selected menu item in the menubar.
+        "menubar.selectionBackground": "#ec809e80", // Background color of the selected menu item in the menubar.
+        "menubar.selectionBorder": "#ec809e", // Border color of the selected menu item in the menubar.
+        "menu.foreground": "#27272a", // Foreground color of menu items.
+        "menu.background": "#f4dede", // Background color of menu items.
+        "menu.selectionForeground": "#27272a", // Foreground color of the selected menu item in menus.
+        "menu.selectionBackground": "#ec809e80", // Background color of the selected menu item in menus.
+        "menu.selectionBorder": "#ec809e", // Border color of the selected menu item in menus.
+        "menu.separatorBackground": "#b565a7", // Color of a separator menu item in menus.
+        "menu.border": "#be9cc1", // Border color of menus.
+
+        // Notification colors
+        // Notification toasts slide up from the bottom-right of the workbench.
+        // Once opened in the Notification Center, they are displayed in a list with a header
+        "notificationCenter.border": "#b565a7", // Notification Center border color.
+        "notificationCenterHeader.foreground": "#27272a", // Notification Center header foreground color.
+        "notificationCenterHeader.background": "#f7caca", // Notification Center header background color.
+        "notificationToast.border": "#b565a7", // Notification toast border color.
+        "notifications.foreground": "#27272a", // Notification foreground color.
+        "notifications.background": "#f4dede", // Notification background color.
+        "notifications.border": "#b565a7", // Notification border color separating from other notifications in the Notification Center.
+        "notificationLink.foreground": "#b565a7", // Notification links foreground color.
+        "notificationsErrorIcon.foreground": "#d2386c", // The color used for the notification error icon.
+        "notificationsWarningIcon.foreground": "#eada4f", // The color used for the notification warning icon.
+        "notificationsInfoIcon.foreground": "#919bc9", // The color used for the notification info icon.
+
+        // Extensions colors
+        "extensionButton.prominentForeground": "#fff", // Extension view button foreground color (for example Install button).
+        "extensionButton.prominentBackground": "#b565a7", // Extension view button background color.
+        "extensionButton.prominentHoverBackground": "#b0879b", // Extension view button background hover color.
+        "extensionBadge.remoteBackground": "#615f5f", // Background color for the remote badge in the extensions view.
+        "extensionBadge.remoteForeground": "#fff", // Foreground color for the remote badge in the extensions view.
+
+        // Quick picker colors
+        "pickerGroup.border": "#93a9d1", // Quick picker (Quick Open) color for grouping borders.
+        "pickerGroup.foreground": "#85677b", // Quick picker (Quick Open) color for grouping labels.
+        "quickInput.background": "#f4eee8", // Quick input background color. The quick input widget is the container for views like the color theme picker.
+        "quickInput.foreground": "#27272a", // Quick input foreground color. The quick input widget is the container for views like the color theme picker.
+        "quickInputTitle.background": "#f7caca", // Quick picker title background color. The quick picker widget is the container for pickers like the Command Palette.
+
+        // Integrated Terminal colors
+        "terminal.background": "#f8d7dd", // The background of the Integrated Terminal's viewport.
+        "terminal.border": "#be9cc1", // The color of the border that separates split panes within the terminal. This defaults to panel.border.
+        "terminal.foreground": "#27272a", // The default foreground color of the Integrated Terminal.
+        "terminal.ansiBlack": "#27272A", // 'Black' ANSI color in the terminal.
+        "terminal.ansiBlue": "#403F6F", // 'Blue' ANSI color in the terminal.
+        "terminal.ansiBrightBlack": "#615F5F", // 'BrightBlack' ANSI color in the terminal.
+        "terminal.ansiBrightBlue": "#93A9D1", // 'BrightBlue' ANSI color in the terminal.
+        "terminal.ansiBrightCyan": "#00E5E5", // 'BrightCyan' ANSI color in the terminal.
+        "terminal.ansiBrightGreen": "#C3D363", // 'BrightGreen' ANSI color in the terminal.
+        "terminal.ansiBrightMagenta": "#BE9CC1", // 'BrightMagenta' ANSI color in the terminal.
+        "terminal.ansiBrightRed": "#EC809E", // 'BrightRed' ANSI color in the terminal.
+        "terminal.ansiBrightWhite": "#F4EEE8", // 'BrightWhite' ANSI color in the terminal.
+        "terminal.ansiBrightYellow": "#EADA4F", // 'BrightYellow' ANSI color in the terminal.
+        "terminal.ansiCyan": "#00A6B2", // 'Cyan' ANSI color in the terminal.
+        "terminal.ansiGreen": "#64BFA4", // 'Green' ANSI color in the terminal.
+        "terminal.ansiMagenta": "#B565A7", // 'Magenta' ANSI color in the terminal.
+        "terminal.ansiRed": "#D2386C", // 'Red' ANSI color in the terminal.
+        "terminal.ansiWhite": "#A8B0AE", // 'White' ANSI color in the terminal.
+        "terminal.ansiYellow": "#DFC160", // 'Yellow' ANSI color in the terminal.
+        "terminal.selectionBackground": "#ec809e80", // The selection background color of the terminal.
+        "terminalCursor.background": "#f7caca", // The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor.
+        "terminalCursor.foreground": "#b565a7", // The foreground color of the terminal cursor.
+
+        // Debug colors
+        "debugToolBar.background": "#f4eee8", // Debug toolbar background color.
+        "debugToolBar.border": "#be9cc1", // Debug toolbar border color.
+        "editor.stackFrameHighlightBackground": "#f4dede", // Background color of the top stack frame highlight in the editor.
+        "editor.focusedStackFrameHighlightBackground": "#f7caca", // Background color of the focused stack frame highlight in the editor.
+        "debugView.exceptionLabelForeground": "#27272a", // Foreground color for a label shown in the CALL STACK view when the debugger breaks on an exception
+        "debugView.exceptionLabelBackground": "#eada4f80", // Background color for a label shown in the CALL STACK view when the debugger breaks on an exception
+        "debugView.stateLabelForeground": "#27272a", // Foreground color for a label in the CALL STACK view showing the current session's or thread's state
+        "debugView.stateLabelBackground": "#64bfa480", // Background color for a label in the CALL STACK view showing the current session's or thread's state
+        "debugView.valueChangedHighlight": "#64bfa4", // Color used to highlight value changes in the debug views (ie. in the Variables view)
+        "debugTokenExpression.name": "#ec809e", // Foreground color for the token names shown in debug views (ie. the Variables or Watch view)
+        "debugTokenExpression.value": "#64bfa4", // Foreground color for the token values shown in debug views
+        "debugTokenExpression.string": "#93a9d1", // Foreground color for strings in debug views
+        "debugTokenExpression.boolean": "#be9cc1", // Foreground color for booleans in debug views
+        "debugTokenExpression.number": "#615f5f", // Foreground color for numbers in debug views
+        "debugTokenExpression.error": "#ec809e", // Foreground color for expression errors in debug views
+
+        // Welcome page colors
+        "welcomePage.background": "#f4eee8", // Background color for the Welcome page.
+        "welcomePage.buttonBackground": "#f4dede", // Background color for the buttons on the Welcome page.
+        "welcomePage.buttonHoverBackground": "#f7caca", // Hover background color for the buttons on the Welcome page.
+        "walkThrough.embeddedEditorBackground": "#f7caca", // Background color for the embedded editors on the Interactive Playground.
+
+        // Source Control colors
+        "scm.providerBorder": "#be9cc1", // SCM Provider separator border.
+
+        // Git colors
+        "gitDecoration.addedResourceForeground": "#64bfa4", // Color for added Git resources. Used for file labels and the SCM viewlet.
+        "gitDecoration.modifiedResourceForeground": "#b565a7", // Color for modified Git resources. Used for file labels and the SCM viewlet.
+        "gitDecoration.stageModifiedResourceForeground": "#b0879b", // Color for staged modifications git decorations. Used for file labels and the SCM viewlet.
+        "gitDecoration.deletedResourceForeground": "#d2386c", // Color for deleted Git resources. Used for file labels and the SCM viewlet.
+        "gitDecoration.stageDeletedResourceForeground": "#ec809e", // Color for staged deletions git decorations. Used for file labels and the SCM viewlet.
+        "gitDecoration.untrackedResourceForeground": "#a49e9e", // Color for untracked Git resources. Used for file labels and the SCM viewlet.
+        "gitDecoration.ignoredResourceForeground": "#919bc9", // Color for ignored Git resources. Used for file labels and the SCM viewlet.
+        "gitDecoration.conflictingResourceForeground": "#eada4f", // Color for conflicting Git resources. Used for file labels and the SCM viewlet.
+        "gitDecoration.submoduleResourceForeground": "#85677b", // Color for submodule resources.
+
+        "gitlens.gutterBackgroundColor": "#a49e9e40",
+		"gitlens.gutterForegroundColor": "#85677b",
+		"gitlens.gutterUncommittedForegroundColor": "#d2386c80",
+		"gitlens.lineHighlightBackgroundColor": "#ec809e80",
+		"gitlens.lineHighlightOverviewRulerColor": "#ec809e40",
+		"gitlens.trailingLineBackgroundColor": "#a49e9e80",
+		"gitlens.trailingLineForegroundColor": "#615f5f80",
+		"gitlens.viewChangesToPullIconColor": "#919bc9",
+		"gitlens.viewChangesToPushIconColor": "#64bfa4",
+		"gitlens.viewCommitToPushIconColor": "#b565a7",
+
+        // Settings Editor colors
+        // Note: These colors are for the GUI settings editor which can be opened with the Preferences: Open Settings (UI) command.
+        "settings.headerForeground": "#85677b", // The foreground color for a section header or active title.
+        "settings.modifiedItemIndicator": "#64bfa4", // The line that indicates a modified setting.
+        "settings.dropdownBackground": "#f7caca", // Dropdown background.
+        "settings.dropdownForeground": "#27272a", // Dropdown foreground.
+        "settings.dropdownBorder": "#b565a7", // Dropdown border.
+        "settings.dropdownListBorder": "#b565a7", // Dropdown list border.
+        "settings.checkboxBackground": "#f7caca", // Checkbox background.
+        "settings.checkboxForeground": "#27272a", // Checkbox foreground.
+        "settings.checkboxBorder": "#a49e9e", // Checkbox border.
+        "settings.textInputBackground": "#f7caca", // Text input box background.
+        "settings.textInputForeground": "#27272a", // Text input box foreground.
+        "settings.textInputBorder": "#a49e9e", // Text input box border.
+        "settings.numberInputBackground": "#f7caca", // Number input box background.
+        "settings.numberInputForeground": "#27272a", // Number input box foreground.
+        "settings.numberInputBorder": "#a49e9e", // Number input box border.
+        "settings.focusedRowBackground": "#f4dede", // Background color of a focused setting row.
+
+        // Breadcrumbs colors
+        // The theme colors for breadcrumbs navigation:
+        "breadcrumb.foreground": "#615f5f", // Color of breadcrumb items.
+        "breadcrumb.background": "#f4dede", // Background color of breadcrumb items.
+        "breadcrumb.focusForeground": "#b565a7", // Color of focused breadcrumb items.
+        "breadcrumb.activeSelectionForeground": "#ec809e", // Color of selected breadcrumb items.
+        "breadcrumbPicker.background": "#ec809e40", // Background color of breadcrumb item picker.
+
+        // Snippets colors
+        // The theme colors for snippets:
+        "editor.snippetTabstopHighlightBackground": "#f4dede", // Highlight background color of a snippet tabstop.
+        "editor.snippetTabstopHighlightBorder": "#ec809e", // Highlight border color of a snippet tabstop.
+        "editor.snippetFinalTabstopHighlightBackground": "#f7caca", // Highlight background color of the final tabstop of a snippet.
+        "editor.snippetFinalTabstopHighlightBorder": "#ec809e", // Highlight border color of the final tabstop of a snippet.
+
+        // Symbol Icons colors
+        // The theme colors for symbol icons that appears in the Outline view, breadcrumb navigation, and suggest widget:
+        "symbolIcon.arrayForeground": "#93a9d1", // The foreground color for array symbols.
+        "symbolIcon.booleanForeground": "#be9cc1", // The foreground color for boolean symbols.
+        "symbolIcon.classForeground": "#d2386c", // The foreground color for class symbols.
+        "symbolIcon.colorForeground": "#615f5f", // The foreground color for color symbols.
+        "symbolIcon.constantForeground": "#be9cc1", // The foreground color for constant symbols.
+        "symbolIcon.constructorForeground": "#64bfa4", // The foreground color for constructor symbols.
+        "symbolIcon.enumeratorForeground": "#d2386c", // The foreground color for enumerator symbols.
+        "symbolIcon.enumeratorMemberForeground": "#ec809e", // The foreground color for enumerator member symbols.
+        "symbolIcon.eventForeground": "#64bfa4", // The foreground color for event symbols.
+        "symbolIcon.fieldForeground": "#919bc9", // The foreground color for field symbols.
+        "symbolIcon.fileForeground": "#615f5f", // The foreground color for file symbols.
+        "symbolIcon.folderForeground": "#85677b", // The foreground color for folder symbols.
+        "symbolIcon.functionForeground": "#64bfa4", // The foreground color for function symbols.
+        "symbolIcon.interfaceForeground": "#d2386c", // The foreground color for interface symbols.
+        "symbolIcon.keyForeground": "#be9cc1", // The foreground color for key symbols.
+        "symbolIcon.keywordForeground": "#be9cc1", // The foreground color for keyword symbols.
+        "symbolIcon.methodForeground": "#64bfa4", // The foreground color for method symbols.
+        "symbolIcon.moduleForeground": "#d2386c", // The foreground color for module symbols.
+        "symbolIcon.namespaceForeground": "#d2386c", // The foreground color for namespace symbols.
+        "symbolIcon.nullForeground": "#a49e9e", // The foreground color for null symbols.
+        "symbolIcon.numberForeground": "#615f5f", // The foreground color for number symbols.
+        "symbolIcon.objectForeground": "#d2386c", // The foreground color for object symbols.
+        "symbolIcon.operatorForeground": "#85677b", // The foreground color for operator symbols.
+        "symbolIcon.packageForeground": "#be9cc1", // The foreground color for package symbols.
+        "symbolIcon.propertyForeground": "#919bc9", // The foreground color for property symbols.
+        "symbolIcon.referenceForeground": "#be9cc1", // The foreground color for reference symbols.
+        "symbolIcon.snippetForeground": "#a49e9e", // The foreground color for snippet symbols.
+        "symbolIcon.stringForeground": "#93a9d1", // The foreground color for string symbols.
+        "symbolIcon.structForeground": "#d2386c", // The foreground color for struct symbols.
+        "symbolIcon.textForeground": "#93a9d1", // The foreground color for text symbols.
+        "symbolIcon.typeParameterForeground": "#d2386c", // The foreground color for type parameter symbols.
+        "symbolIcon.unitForeground": "#93a9d1", // The foreground color for unit symbols.
+        "symbolIcon.variableForeground": "#ec809e", // The foreground color for variable symbols.
+
+        // Debug Icons colors
+        "debugIcon.breakpointForeground": "#b565a7", // Icon color for breakpoints.
+        "debugIcon.breakpointDisabledForeground": "#a49e9e", // Icon color for disabled breakpoints.
+        "debugIcon.breakpointUnverifiedForeground": "#b0879b", // Icon color for unverified breakpoints.
+        "debugIcon.breakpointCurrentStackframeForeground": "#b565a7", // Icon color for the current breakpoint stack frame.
+        "debugIcon.breakpointStackframeForeground": "#be9cc1", // Icon color for all breakpoint stack frames.
+        "debugIcon.startForeground": "#64bfa4", // Debug toolbar icon for start debugging.
+        "debugIcon.pauseForeground": "#eada4f", // Debug toolbar icon for pause.
+        "debugIcon.stopForeground": "#d2386c", // Debug toolbar icon for stop.
+        "debugIcon.disconnectForeground": "#ec809e", // Debug toolbar icon for disconnect.
+        "debugIcon.restartForeground": "#919bc9", // Debug toolbar icon for restart.
+        "debugIcon.stepOverForeground": "#b0879b", // Debug toolbar icon for step over.
+        "debugIcon.stepIntoForeground": "#b0879b", // Debug toolbar icon for step into.
+        "debugIcon.stepOutForeground": "#b0879b", // Debug toolbar icon for step over.
+        "debugIcon.continueForeground": "#b565a7", // Debug toolbar icon for continue.
+        "debugIcon.stepBackForeground": "#b0879b", // Debug toolbar icon for step back.        
+        "debugConsole.infoForeground": "#919bc9", // Foreground color for info messages in debug REPL console.
+        "debugConsole.warningForeground": "#eada4f", // Foreground color for warning messages in debug REPL console.
+        "debugConsole.errorForeground": "#d2386c", // Foreground color for error messages in debug REPL console.
+        "debugConsole.sourceForeground": "#85677b", // Foreground color for source filenames in debug REPL console.
+        "debugConsoleInputIcon.foreground": "#b565a7", // Foreground color for debug console input marker icon.        
+          
+        // Notebook colors
+        "notebook.cellBorderColor": "#a49e9e", // The border color for notebook cells.
+        "notebook.focusedEditorBorder": "#93a9d1", // The color of the notebook cell editor border.
+        "notebookStatusSuccessIcon.foreground": "#919bc9", // The success icon color of notebook cells in the cell status bar.
+        "notebookStatusErrorIcon.foreground": "#d2386c", // The error icon color of notebook cells in the cell status bar.
+        "notebookStatusRunningIcon.foreground": "#64bfa4", // The running icon color of notebook cells in the cell status bar.
+        "notebook.outputContainerBackgroundColor": "#f4eee8", // The Color of the notebook output container background.
+        "notebook.cellToolbarSeparator": "#93a9d1", // The color of the separator in the cell bottom toolbar
+        "notebook.focusedCellBackground": "#f7caca", // The background color of a cell when the cell is focused.
+        "notebook.cellHoverBackground": "#f4eee8", // The background color of a cell when the cell is hovered.
+        "notebook.focusedCellBorder": "#93a9d1", // The color of the cell's top and bottom border when the cell is focused.
+        "notebook.focusedCellShadow": "#a49e9e", // The color of the cell shadow when cells are focused.
+        "notebook.selectedCellBorder": "#be9cc1", // The color of the cell's top and bottom border when the cell is selected but not focused.
+        "notebook.cellStatusBarItemHoverBackground": "#f7caca", // The background color of notebook cell status bar items.
+        "notebook.cellInsertionIndicator": "#b565a7", // The color of the notebook cell insertion indicator.
+        "notebookScrollbarSlider.background": "#d94f7080", // Notebook scrollbar slider background color.
+        "notebookScrollbarSlider.hoverBackground": "#b565a780", // Notebook scrollbar slider background color when hovering.
+        "notebookScrollbarSlider.activeBackground": "#d2386c80", // Notebook scrollbar slider background color when clicked on.
+        "notebook.symbolHighlightBackground": "#f7caca", // Background color of highlighted cell"
+        "notebook.rowHoverBackground": "#f4dede", // The background color of a settings row when hovered.
+        "notebook.focusedRowBorder": "#93a9d1", // The color of the row's top and bottom border when the row is focused.
+            
+        // Chart colors
+        "charts.foreground": "#85677b",// Contrast color for text in charts.
+        "charts.lines": "#615f5f",// Color for lines in charts.
+        "charts.red": "#d2386c",// Color for red elements in charts.
+        "charts.blue": "#919bc9",// Color for blue elements in charts.
+        "charts.yellow": "#eada4f",// Color for yellow elements in charts.
+        "charts.orange": "#ec809e",// Color for orange elements in charts.
+        "charts.green": "#64bfa4",// Color for green elements in charts.
+        "charts.purple": "#b565a7",// Color for purple elements in charts.
+    },
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "launch": {
+    
+
+    
+    
+        "configurations": [],
+        "compounds": []
+    },
+    "git.ignoreLegacyWarning": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "vs-kubernetes": {
+        "vs-kubernetes.minikube-path.mac": "/Users/christie/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+    },
+    "git.confirmSync": false,
+    "svg.preview.mode": "svg",
+    "editor.wordWrap": "on",
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false
+    },
+    "editor.wordWrapColumn": 140,
+    "editor.rulers": [
+        80,140
+    ],
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "jupyter.alwaysTrustNotebooks": true,
+    "terminal.integrated.inheritEnv": false,
+    "python.languageServer": "Microsoft",
+    "jupyter.askForKernelRestart": false
+}
