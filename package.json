@@ -1,0 +1,21 @@
+{
+    "name": "vsc-rosely-light",
+    "displayName": "vsc-rosely-light",
+    "description": "The Rosely Visual Studio Theme is based on a millennial pink inspired colour palette.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rosely Light",
+                "uiTheme": "vs",
+                "path": "./themes/Rosely Light-color-theme.json"
+            }
+        ]
+    }
+}
