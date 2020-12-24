@@ -11,3 +11,5 @@ contrast colour changes and helps the eyes to focus on what is important.
 
 It is part of the overall Rosely Design System created by
 [Chris Tham](chris.tham@hellotham.com).
+
+![Rosely Colour Palette](https://github.com/ChristineTham/vsc-rosely-light/raw/master/images/rosely.png)
