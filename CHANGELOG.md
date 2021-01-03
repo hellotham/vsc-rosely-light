@@ -2,6 +2,11 @@
 
 All notable changes to the "vsc-rosely-light" extension will be documented in this file.
 
+## [1.0.2]
+
+- Updated screenshot for README to reflect new syntax highlighting colours
+- Further refined package description
+
 ## [1.0.1]
 
 - Moved to new Rosely palette (minor changes replacing Serenity with Lavender Fog for borders)

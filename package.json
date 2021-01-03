@@ -1,8 +1,8 @@
 {
     "name": "vsc-rosely-light",
     "displayName": "Rosely Light",
-    "description": "The Rosely Visual Studio Code Theme is based on a millennial pink inspired colour palette. It is a deliberately low contrast theme full of soothing contemporary colours designed to induce calmness and serenity and works well even on lower contrast displays.",
-    "version": "1.0.1",
+    "description": "Rosely Light Visual Studio Code Theme is based on a millennial pink inspired colour palette. It is a deliberately low contrast theme using contemporary colours designed to induce calmness and serenity.",
+    "version": "1.0.2",
     "publisher": "hellotham",
     "license": "MIT",
     "homepage": "https://github.com/hellotham/vsc-rosely-light/blob/master/README.md",
