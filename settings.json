@@ -393,8 +393,8 @@
         "statusBarItem.prominentForeground": "#fff", // Status Bar prominent items foreground color.
         "statusBarItem.prominentBackground": "#be9cc1", // Status Bar prominent items background color.
         "statusBarItem.prominentHoverBackground": "#b0879b", // Status Bar prominent items background color when hovering.
-        "statusBarItem.remoteBackground": "#615f5f", // Background color for the remote indicator on the status bar.
-        "statusBarItem.remoteForeground": "#fff", // Foreground color for the remote indicator on the status bar.
+        "statusBarItem.remoteBackground": "#3CADD4", // Background color for the remote indicator on the status bar.
+        "statusBarItem.remoteForeground": "#27272a", // Foreground color for the remote indicator on the status bar.
         "statusBarItem.errorBackground": "#ec809e", // Status bar error items background color. Error items stand out from other status bar entries to indicate error conditions.
         "statusBarItem.errorForeground": "#fff", // Status bar error items foreground color. Error items stand out from other status bar entries to indicate error conditions.
         // Prominent items stand out from other Status Bar entries to indicate importance. One example is the Toggle Tab Key Moves Focus command change mode indicator.

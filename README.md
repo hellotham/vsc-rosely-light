@@ -12,7 +12,7 @@ contemporary colours designed to induce calmness and serenity and works well
 even on lower contrast displays. It is not eye fatiguing as it avoids high
 contrast colour changes and helps the eyes to focus on what is important.
 
-It is part of the overall Rosely Design System created by
-[Chris Tham](chris.tham@hellotham.com).
+It is part of the overall [Rosely Design System](https://rosely.hellotham.com) created by
+[Chris Tham](chris.tham@hellotham.com). 
 
 ![Rosely Colour Palette](https://github.com/hellotham/vsc-rosely-light/raw/master/images/rosely.png)
